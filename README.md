@@ -2,7 +2,7 @@
 
 # Day 1
 
-Branch - shruti/swift-basics
+Branch - shruti/day1
 Topics ->
  1. String interpolation
  2. Type annotations
