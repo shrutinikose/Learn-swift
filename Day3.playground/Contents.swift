@@ -84,7 +84,33 @@ secondCard = 11
 let isTrue = firstCard == secondCard ? "both cards are same" : "cards are not same"
 print(isTrue)
 
-s
+
+//switch
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("weather is rainy")
+case "sunny":
+    print("sun is shining")
+default:
+    print("weather is unpredictable")
+}
+
+// Range Operators
+
+score = 50
+
+switch score {
+case 0..<50:
+    print("bad")
+case 50...85:
+    print("you did okay")
+case 85..<100:
+    print("you did great")
+default:
+    print("you either did super bad or you input invalid number")
+}
 
 
 
