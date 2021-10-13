@@ -3,8 +3,8 @@ import UIKit
 var str = "Hello, playground"
 
 //Arithmetic Operations
-let firstScore = 12
-let secondScore = 4
+var firstScore = 12
+var secondScore = 4
 let total = firstScore + secondScore
 let difference = firstScore - secondScore
 print("this is total : \(total)")
@@ -33,5 +33,13 @@ score -= 5
 var rains = "rains in India happens only in "
 rains += "August"
 print(rains)
+
+//Comparison operators
+firstScore = 6
+secondScore = 4
+print(firstScore == secondScore)
+print(firstScore != secondScore)
+print("Taylor" <= "Swift")
+
 
 
