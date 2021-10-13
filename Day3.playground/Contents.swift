@@ -26,4 +26,12 @@ let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
 print(beatles)
 
+//Compount assignment operators
+
+var score = 95
+score -= 5
+var rains = "rains in India happens only in "
+rains += "August"
+print(rains)
+
 
